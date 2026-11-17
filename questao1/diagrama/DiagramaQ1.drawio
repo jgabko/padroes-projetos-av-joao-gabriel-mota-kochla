@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Questao 1">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="2280" pageHeight="1710" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Questao 1 - Provisionamento Multinuvem" vertex="1" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;">
+          <mxGeometry as="geometry" x="35" y="22" width="2210" height="40" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="MaquinaAws" target="IMaquinaVirtual" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="MaquinaAzure" target="IMaquinaVirtual" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="ArmazenamentoAws" target="IArmazenamento" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="ArmazenamentoAzure" target="IArmazenamento" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="FilaAws" target="IFila" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="FilaAzure" target="IFila" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="FactoryAws" target="IFactoryNuvem" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="FactoryAzure" target="IFactoryNuvem" value="" style="endArrow=block;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0;exitY=0.5;entryX=1;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="FactoryAws" target="MaquinaAws" value="cria" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="265" y="507" />
+              <mxPoint x="156" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="FactoryAws" target="ArmazenamentoAws" value="cria" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="265" y="529" />
+              <mxPoint x="913" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="FactoryAws" target="FilaAws" value="cria" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="265" y="550" />
+              <mxPoint x="1630" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="FactoryAzure" target="MaquinaAzure" value="cria" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1800" y="579" />
+              <mxPoint x="496" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="FactoryAzure" target="ArmazenamentoAzure" value="cria" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1800" y="601" />
+              <mxPoint x="1255" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="FactoryAzure" target="FilaAzure" value="cria" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1800" y="622" />
+              <mxPoint x="2012" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="IFactoryNuvem" target="IMaquinaVirtual" value="retorna" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="720" y="561" />
+              <mxPoint x="720" y="252" />
+              <mxPoint x="317" y="252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="1" source="IFactoryNuvem" target="IArmazenamento" value="retorna" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="720" y="561" />
+              <mxPoint x="720" y="262" />
+              <mxPoint x="1039" y="262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="1" source="IFactoryNuvem" target="IFila" value="retorna" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="720" y="561" />
+              <mxPoint x="720" y="273" />
+              <mxPoint x="1833" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge17" edge="1" parent="1" source="Provisionamento" target="IFactoryNuvem" value="fabrica: 1" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge18" edge="1" parent="1" source="Provisionamento" target="Configuracao" value="consulta" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge19" edge="1" parent="1" source="Provisionamento" target="Auditoria" value="registra" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=1;entryX=1;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1064" y="1418" />
+              <mxPoint x="660" y="1418" />
+              <mxPoint x="660" y="1255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge20" edge="1" parent="1" source="Main" target="Provisionamento" value="usa" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge21" edge="1" parent="1" source="Main" target="FactoryAws" value="instancia" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge22" edge="1" parent="1" source="Main" target="FactoryAzure" value="instancia" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="44" y="892" />
+              <mxPoint x="2240" y="892" />
+              <mxPoint x="2240" y="835" />
+              <mxPoint x="1884" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge23" edge="1" parent="1" source="Main" target="Auditoria" value="imprime" style="endArrow=open;endFill=0;rounded=0;html=0;fontSize=17;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="IMaquinaVirtual" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface / Produto&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IMaquinaVirtual&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+getIdentificador(): String&lt;br&gt;+getCustoHora(): double" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="209" y="101" width="216" height="115" />
+        </mxCell>
+        <mxCell id="MaquinaAws" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Produto concreto Aws&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MaquinaAws&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="42" y="277" width="229" height="55" />
+        </mxCell>
+        <mxCell id="MaquinaAzure" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Produto concreto Azure&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MaquinaAzure&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="376" y="321" width="241" height="55" />
+        </mxCell>
+        <mxCell id="IArmazenamento" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface / Produto&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IArmazenamento&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+getIdentificador(): String&lt;br&gt;+getCustoGb(): double" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="931" y="128" width="216" height="115" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Produto concreto Aws&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ArmazenamentoAws&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="799" y="295" width="229" height="55" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Produto concreto Azure&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ArmazenamentoAzure&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="1135" y="275" width="241" height="55" />
+        </mxCell>
+        <mxCell id="IFila" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface / Produto&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFila&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+getIdentificador(): String&lt;br&gt;+getCustoMensal(): double" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="1720" y="85" width="227" height="115" />
+        </mxCell>
+        <mxCell id="FilaAws" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Produto concreto Aws&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FilaAws&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="1516" y="317" width="229" height="55" />
+        </mxCell>
+        <mxCell id="FilaAzure" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Produto concreto Azure&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FilaAzure&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="1892" y="290" width="241" height="55" />
+        </mxCell>
+        <mxCell id="FactoryAws" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Fabrica concreta&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FactoryAws&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+criarMaquina(): IMaquinaVirtual&lt;br&gt;+criarArmazenamento(): IArmazenamento&lt;br&gt;+criarFila(): IFila" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="95" y="619" width="340" height="138" />
+        </mxCell>
+        <mxCell id="FactoryAzure" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Fabrica concreta&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FactoryAzure&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+criarMaquina(): IMaquinaVirtual&lt;br&gt;+criarArmazenamento(): IArmazenamento&lt;br&gt;+criarFila(): IFila" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="1630" y="579" width="340" height="138" />
+        </mxCell>
+        <mxCell id="IFactoryNuvem" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface / Abstract Factory&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFactoryNuvem&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+getProvedor(): String&lt;br&gt;+getCustoHora(): double&lt;br&gt;+getCustoGb(): double&lt;br&gt;+getCustoFila(): double&lt;br&gt;+criarMaquina(): IMaquinaVirtual&lt;br&gt;+criarArmazenamento(): IArmazenamento&lt;br&gt;+criarFila(): IFila" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="808" y="606" width="340" height="230" />
+        </mxCell>
+        <mxCell id="Provisionamento" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Cliente&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Provisionamento&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+provisionar(String, int, int): void" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="737" y="925" width="271" height="92" />
+        </mxCell>
+        <mxCell id="Configuracao" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Configuracao&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;-instancia: Configuracao {static}&lt;br&gt;-regiao: String&lt;br&gt;-orcamento: double&lt;hr&gt;-Configuracao()&lt;br&gt;+getInstancia(): Configuracao {static}&lt;br&gt;+getRegiao(): String&lt;br&gt;+getOrcamento(): double" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="1621" y="1059" width="305" height="244" />
+        </mxCell>
+        <mxCell id="Auditoria" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Auditoria&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;-instancia: Auditoria {static}&lt;br&gt;-registros: List&amp;lt;String&amp;gt;&lt;hr&gt;-Auditoria()&lt;br&gt;+getInstancia(): Auditoria {static}&lt;br&gt;+registrar(String, String, String): void&lt;br&gt;+imprimir(): void" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="96" y="1145" width="303" height="221" />
+        </mxCell>
+        <mxCell id="Main" parent="1" vertex="1" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Cliente&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;+main(String[]): void {static}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=17;align=left;verticalAlign=top;spacing=8;">
+          <mxGeometry as="geometry" x="95" y="976" width="236" height="92" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
