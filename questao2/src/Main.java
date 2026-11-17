@@ -35,12 +35,10 @@ public class Main {
         bruno.darLance(quadro, 1500); // Recusado: lote encerrado.
 
         IFatura fatura = new Venda(quadro);
-        imprimir(fatura); // A mesma impressao funciona sem servicos.
         fatura = new SeguroTransporte(fatura);
         fatura = new CertificadoAutenticidade(fatura);
         fatura = new EmbalagemEspecial(fatura);
         fatura = new EmbalagemEspecial(fatura);
-        fatura = new EntregaExpressa(fatura);
         imprimir(fatura);
         quadro.imprimirAcerto();
         auditor.imprimir();
